@@ -48,6 +48,7 @@ nav ul {
   display: flex;
   justify-content: center;
   gap: 20px;
+  align-items: center;
 }
 
 nav ul li {
@@ -62,11 +63,16 @@ nav ul li a {
   color: black;
 }
 
-nav ul li:hover {
+/* nav ul li:hover {
   background: #eca023;
   border-radius: 5px;
-}
+} */
 
 .main-grid {
   text-align: center;
+}
+
+.logo-nav {
+  display: flex;
+  width: 50%;
 }

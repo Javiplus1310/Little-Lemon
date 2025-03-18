@@ -1,9 +1,10 @@
 import React from "react";
+import Nav from './Nav';
 
 export default function Header(){
     return(
-        <div className="main-grid">
-            <h1>This is the Header</h1>
-        </div>
+        <header>
+            <Nav />
+        </header>
     );
 }
