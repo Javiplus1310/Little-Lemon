@@ -1,10 +1,13 @@
-import React from "react";
 import './App.css';
-import Header from "./Header";
+import Nav from './Nav';
+import Router from './Router';
 
 function App() {
   return (
-      <Header />
+    <>
+      <Nav />
+      <Router />
+    </>
   );
 }
 

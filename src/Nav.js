@@ -1,7 +1,6 @@
 import React from "react";
-import {Routes, Route, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import logo from './img/Logo.png';
-import Homepage from './HomePage';
 
 export default function Nav(){
     return(
@@ -31,9 +30,6 @@ export default function Nav(){
             <Link to="/login" className="nav-item">Login</Link>
           </li>
         </ul>
-        <Routes>
-        <Route path="/" element={<Homepage />}></Route>
-      </Routes>
       </nav>
     );
 }
