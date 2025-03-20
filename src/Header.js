@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 export default function Header() {
     return(
         <header>
-        <article>
-            <section>
+        <article className="call-to-action">
+            <section className="hero-text">
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
                 <p className="subsection">We are a family owned Mediterranean restaurant, located on  Maldove Street in Chicago, Illionis. We focus

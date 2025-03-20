@@ -6,16 +6,16 @@ function Homepage() {
         <>
             <Header />
             <main>
-                <section>
-                    <article>
+                <section className="specials">
+                    <article className="specials-topbar">
                         <h1>This week specials!</h1>
                         <a className="action-button" href="#" target="_blank" rel="noreferrer">Online Menu</a>
                     </article>
 
-                    <section>
-                        <article>
+                    <section className="specials-cards">
+                        <article className="menu-card">
                             {/* <img></img> */}
-                            <section>
+                            <section className="menu-card-content">
                                 <h1>Greek Salad</h1>
                                 <h3>$12.99</h3>
                                 <p>Refreshing salad, made with tomato, lettuce, feta cheese, and olives. Dressed with salt, hot pepper, and olive oil.</p>
@@ -23,9 +23,9 @@ function Homepage() {
                             </section>
                         </article>
 
-                        <article>
+                        <article className="menu-card">
                             {/* <img></img> */}
-                            <section>
+                            <section className="menu-card-content">
                                 <h1>Bruschetta</h1>
                                 <h3>$16.99</h3>
                                 <p>Toasted bread, topped with tomato, prosciutto, and cheese. Seasoned with salt and olive oil.</p>
@@ -33,9 +33,9 @@ function Homepage() {
                             </section>
                         </article>
 
-                        <article>
+                        <article className="menu-card">
                             {/* <img></img> */}
-                            <section>
+                            <section className="menu-card-content">
                                 <h1>Lemon Dessert</h1>
                                 <h3>$8.50</h3>
                                 <p>Fresh baked lemon bread coated in salt and sugar. Powdered in citrus and lemon zest.</p>
@@ -44,17 +44,17 @@ function Homepage() {
                         </article>
                     </section>
 
-                    {/* <section>
+                    {/* <section> Carousel
 
                     </section> */}
                 </section>
 
-                <section>
-                    <article>
+                <section className="testimonials">
+                    <article className="testimonials-topbar">
                         <h1>Testimonials</h1>
                     </article>
 
-                    <section>
+                    <section className="testimonials-cards">
                         <article className="testimonial-card">
                             <h1>Rating</h1>
                             <h3>Juan Perez</h3>
@@ -81,8 +81,8 @@ function Homepage() {
                     </section>
                 </section>
 
-                <article>
-                    <section>
+                <article className='about-us'>
+                    <section className="hero-text">
                         <h1>Little Lemon</h1>
                         <h2>Chicago</h2>
                         <p className="about-subtext">Little Lemon opened in 1995 by two Italian brothers, Adrian and Mario.
